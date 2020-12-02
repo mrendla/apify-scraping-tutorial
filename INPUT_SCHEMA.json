@@ -1,0 +1,17 @@
+{
+  "title": "Tutorial Amazon Scraper input schema",
+  "description": "This is actor input schema for Amazon product scrapper based on a keyword search",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "keyword": {
+      "title": "Keyword",
+      "type": "string",
+      "description": "Enter product search keyword",
+      "editor": "textfield"
+    }
+  },
+  "required": [
+    "keyword"
+  ]
+}
